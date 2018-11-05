@@ -16,23 +16,8 @@ def return_gwyneth_paltrows_roles():
     # could do gwyn.roles_.character to see the actual characters she played
 
 
-
-
-
 def return_tom_hanks_2nd_role():
 # should return the Tom Hanks' second Role instance
     tom = session.query(Actor).filter_by(name='Tom Hanks').first()
 
     return tom.roles_[1]
-
-
-
-
-
-
-# def return_gwyneth_paltrows_roles():
-#     gwyneth_paltrow = session.query(Actor).filter(Actor.name == "Gwyneth Paltrow").first()
-#     return gwyneth_paltrow.roles
-# def return_tom_hanks_2nd_role():
-#     tom_hanks = session.query(Actor).filter(Actor.name == "Tom Hanks").first()
-#     return tom_hanks.roles[1]
