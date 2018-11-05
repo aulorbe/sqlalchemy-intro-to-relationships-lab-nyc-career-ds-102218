@@ -1,0 +1,7 @@
+[
+  "test/index_test.py::TestHasManyBelongsTo::test_actors_have_two_roles",
+  "test/index_test.py::TestHasManyBelongsTo::test_created_three_actors",
+  "test/index_test.py::TestHasManyBelongsTo::test_return_gwyneth_paltrows_roles",
+  "test/index_test.py::TestHasManyBelongsTo::test_return_tom_hanks_2nd_role",
+  "test/index_test.py::TestHasManyBelongsTo::test_roles_belong_to_actor"
+]
